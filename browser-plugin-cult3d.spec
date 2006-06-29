@@ -9,7 +9,7 @@ Release:	0.%{_beta}.%{_rel}
 License:	?
 Group:		X11/Applications/Multimedia
 Source0:	http://host.cycore.net/plugins/linux/netscape4/Cult3D_NS4_%{version}%{_beta}.tar.gz
-# Source0-md5:	9b559a80ac71d9d9eea75a8bf1769489
+# NoSource0-md5:	9b559a80ac71d9d9eea75a8bf1769489
 NoSource:	0
 URL:		http://www.cult3d.com/
 ExclusiveArch:	%{ix86}
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 # directory where you store the plugin
 %define		_plugindir	%{_libdir}/browser-plugins
-%define		_classesdir %{_libdir}/netscape/java/classes
+%define		_classesdir	%{_libdir}/netscape/java/classes
 
 %description
 The Cult3D Viewer enables you to view and interact with Cult3D objects
@@ -30,6 +30,17 @@ and move it around, and play with its components. For example, if you
 got a Web site with a Cult3D car, you can open the doors, look at the
 interior - even the backseat, open the hood and trunk, you can even
 change the color of the car - all with a click of your mouse!
+
+%description -l pl
+Cult3D Viewer pozwala ogl±daæ i pracowaæ z obiektami Cult3D w sieci,
+oraz plikach Microsoft Worda, PowerPointa, Excela oraz Adobe Acrobata.
+
+Przegl±darka jest bardzo ma³a i daj±ca ¿ycie prezentacjom WWW. Pozwala
+ogl±daæ dowolne serwisy zawieraj±ce obiekty Cult3D i przemieszczaæ je,
+przegl±daj±c ich komponenty. Na przyk³ad maj±c stronê WWW z samochodem
+Cult3D mo¿na otwieraæ drzwi, patrzeæ na wnêtrze - nawet tylne
+siedzenie, otwieraæ maskê i kufer, a nawet zmieniaæ kolor samochodu -
+wszystko to klikaj±c myszk±.
 
 %prep
 %setup -q -n %{_orgname}-%{version}-%{_beta}-linux-x86
