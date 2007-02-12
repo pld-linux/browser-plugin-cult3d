@@ -1,7 +1,7 @@
 %define		_orgname	cult3d
 %define		_beta	b1
 Summary:	A Mozilla plug-in to view Cult3D objects
-Summary(pl):	Wtyczka dla przegl±darek opartych na Mozilli do obiektów Cult3D
+Summary(pl.UTF-8):   Wtyczka dla przeglÄ…darek opartych na Mozilli do obiektÃ³w Cult3D
 Name:		browser-plugin-%{_orgname}
 Version:	5.2
 %define		_rel	0.5
@@ -31,16 +31,16 @@ got a Web site with a Cult3D car, you can open the doors, look at the
 interior - even the backseat, open the hood and trunk, you can even
 change the color of the car - all with a click of your mouse!
 
-%description -l pl
-Cult3D Viewer pozwala ogl±daæ i pracowaæ z obiektami Cult3D w sieci,
+%description -l pl.UTF-8
+Cult3D Viewer pozwala oglÄ…daÄ‡ i pracowaÄ‡ z obiektami Cult3D w sieci,
 oraz plikach Microsoft Worda, PowerPointa, Excela oraz Adobe Acrobata.
 
-Przegl±darka jest bardzo ma³a i daj±ca ¿ycie prezentacjom WWW. Pozwala
-ogl±daæ dowolne serwisy zawieraj±ce obiekty Cult3D i przemieszczaæ je,
-przegl±daj±c ich komponenty. Na przyk³ad maj±c stronê WWW z samochodem
-Cult3D mo¿na otwieraæ drzwi, patrzeæ na wnêtrze - nawet tylne
-siedzenie, otwieraæ maskê i kufer, a nawet zmieniaæ kolor samochodu -
-wszystko to klikaj±c myszk±.
+PrzeglÄ…darka jest bardzo maÅ‚a i dajÄ…ca Å¼ycie prezentacjom WWW. Pozwala
+oglÄ…daÄ‡ dowolne serwisy zawierajÄ…ce obiekty Cult3D i przemieszczaÄ‡ je,
+przeglÄ…dajÄ…c ich komponenty. Na przykÅ‚ad majÄ…c stronÄ™ WWW z samochodem
+Cult3D moÅ¼na otwieraÄ‡ drzwi, patrzeÄ‡ na wnÄ™trze - nawet tylne
+siedzenie, otwieraÄ‡ maskÄ™ i kufer, a nawet zmieniaÄ‡ kolor samochodu -
+wszystko to klikajÄ…c myszkÄ….
 
 %prep
 %setup -q -n %{_orgname}-%{version}-%{_beta}-linux-x86
