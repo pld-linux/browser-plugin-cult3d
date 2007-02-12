@@ -1,7 +1,7 @@
 %define		_orgname	cult3d
 %define		_beta	b1
 Summary:	A Mozilla plug-in to view Cult3D objects
-Summary(pl.UTF-8):   Wtyczka dla przeglądarek opartych na Mozilli do obiektów Cult3D
+Summary(pl.UTF-8):	Wtyczka dla przeglądarek opartych na Mozilli do obiektów Cult3D
 Name:		browser-plugin-%{_orgname}
 Version:	5.2
 %define		_rel	0.5
